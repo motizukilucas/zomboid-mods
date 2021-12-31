@@ -1,0 +1,7 @@
+module Base
+{
+	model BarbedWireBaseballBat
+	{
+		mesh = weapons/2handed/BarbedWireBaseballBat,
+	}
+}

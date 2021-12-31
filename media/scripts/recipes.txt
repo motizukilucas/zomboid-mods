@@ -1,0 +1,14 @@
+module Base
+{
+	recipe Build Barbed Wire Baseball Bat
+	{
+	   BaseballBat,
+	   Wire,
+	   keep [Recipe.GetItemTypes.Hammer],
+	   Result:BarbedWireBaseballBat,
+	   Sound:Hammering,
+	   Time:150.0,
+	   Category:Carpentry,
+	   OnCreate:Recipe.OnCreate.BarbedWireBaseballBat,
+	}
+}
